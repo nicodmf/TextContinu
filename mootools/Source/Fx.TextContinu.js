@@ -207,13 +207,6 @@ window.addEvent('domready', function() {
 				}
 			}, origins, ele)
 		}, origins);
-		/*origins.each(function(obj){
-							  obj.followers.each(
-												 function(obj){
-													 alert(obj.getProperty('id'))
-												})
-		})//alert(origins.div.followers);
-		*/
 		delais()
 		origins.each(function(obj){new Fx.TextContinu($(obj.name), obj.followers)});
 		delais()
